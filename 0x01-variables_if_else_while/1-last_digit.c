@@ -8,6 +8,7 @@
 * this program prints "programming is positive, zero, or negative
 * Return: 0
 */
+
 int main(void)
 {
 int n;
@@ -30,3 +31,4 @@ else
 	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, 1);
 }
 return (0);
+}
