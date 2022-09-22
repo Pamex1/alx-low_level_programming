@@ -13,5 +13,6 @@ int main(void)
 		char lower_x = tolower(x);
 		putchar(lower_x);
 	}
+	putchar('\n');
 	return (0);
 }
