@@ -53,6 +53,6 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
 	{
 		num = (*n2 - '0') + tens;
 		*(r + r_index) = (num % 10) + '0';
-		tens = num / 10; 
+		tens = num / 10;
 	}
 }
